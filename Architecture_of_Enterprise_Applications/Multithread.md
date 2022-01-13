@@ -16,7 +16,7 @@ t.join()会让当前线程暂停并等待线程t执行完毕。
 
 join和sleep一样依赖于操作系统，不能保证完全精确。
 
-像 sleep 一样，join 通过以 InterruptedException 退出来响应中断。
+像 sleep 一样，join 通过以 InterruptedException 退出来响应中断。		
 
 ### Synchronized
 
